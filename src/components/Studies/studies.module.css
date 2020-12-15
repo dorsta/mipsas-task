@@ -1,0 +1,14 @@
+.cardLayout {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.cardLayout:-webkit-scrollbar {
+    display: none;
+}
