@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Redirect } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 import "./App.css";
 import Navigation from "./components/UI/navigation/navigation";
@@ -9,7 +9,6 @@ function App() {
   const navigationItemArray = ["All", "Current", "Submitted", "Finished"];
   return (
     <BrowserRouter>
-      <Redirect from="/" exact to="/Current" />
       <div className="App">
         <div className="Heading">Studies Viewer</div>
         <div className="Content">

@@ -12,6 +12,13 @@ const navigation = (props) => {
           className={classes.NavLink}
           to={"/" + item}
           activeClassName={classes.active}
+          isActive={(_, location) => {
+            if (item === "All") {
+              return location.pathname === "/All" || location.pathname === "/"
+            } else {
+              return location.pathname === "/" + item
+            }
+          }}
         >
           {item}
         </NavLink>
