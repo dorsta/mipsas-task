@@ -1,3 +1,6 @@
+This is the task that got me my first job as a sofware developer.
+You can check out a hosted demo [here](https://mipsas-task.web.app).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
